@@ -5,8 +5,9 @@
 4. [Interior](#interior)
 5. [First Impressions](#first-impressions)
 6. [Simplified Component List](#simplified-component-list)
+7. [Fan Replacement](#fan-replacement)
 
-## Segotep GP600G (as listed, but should be SG-700G product line)
+## Segotep GP600G (as listed, but should be SX-700G product line)
 600w continuously rated, Gold efficiency, Non-modular unit from Segotep that is listed for both $50 USD on both [Amazon](https://www.amazon.com/dp/B0832KN3RV/ref=twister_B08G1G6MLF?_encoding=UTF8&th=1) and [Newegg](https://www.newegg.com/segotep-gp-series-600w-non-modular/p/1HU-00Z0-00008). The listing shows GP600G while the product label shows SX-700G, of which we will see down below.
 
 ## Packaging
@@ -33,10 +34,10 @@ So now we will actually touch the unit and check out what it feels like.
 
 ## Interior 
 Now the fun begins...We open the unit up to find it is Half-Bridge (LLC Resonant) topology with synchronous rectification (SR) & DC-DC converters (regulation)--nice.
+![](https://i.imgur.com/Td9uub4.jpg)
 ![](https://i.imgur.com/8iMVvgp.jpg)
 ![](https://i.imgur.com/8CCMvuo.jpg)
 Strange piece of somewhat "dried" plastic was in the unit...Interesting.
-![](https://i.imgur.com/Td9uub4.jpg)
 ![](https://i.imgur.com/qMq45k7.jpg)
 ![](https://i.imgur.com/m4q578r.jpg)
 ![](https://i.imgur.com/4jYJg2M.jpg)
@@ -81,3 +82,11 @@ Secondary side capacitors are sometimes different from the product listing and s
   | 12v Rail MOSFET | (Unknown) SG40N01LQ 2003005 (40V, 100A) |
   | LLC Resonant Controller | CM6901X |
   | Fan Model               | EFS-12E12H (120mm, 12 V, 0.5A,  rifle bearing) |
+
+# Fan Replacement
+* With nothing better to do that indirectly compare fans, I swapped in an Artic P12  PWM PST of which I promptly clipped and soldered to the leads of the power supply fan. I am going to make this clear that __**DO NOT**__ attempt to dissect, disassemble, or otherwise interact with the internal components of a power supply unless you **REALLY** know what you're doing. Power supplies have capacitors in them which are powerful enough to **kill you**, even when not powered (because they can hold electrons for a long time in idle). If you don't know how to safely discharge a power supply, **do not even open it.** In fact, during my reassembly process, I accidentally shorted two components in the filtering stage together that caused sparks to fly and for the circuit breaker for the outlets to trip.
+
+![](https://i.imgur.com/oEk21yU.jpg)
+![](https://i.imgur.com/uahDP5A.jpg)
+![](https://i.imgur.com/blqf3zS.jpg)
+With the P12 PWM in there, there was a noticeable difference in the airflow per second and sound. While the P12 is rated for 12V at 0.08A, the included fan ran at 12V at 0.5A. The P12 ran faster, pushing a lot more air, but also ran louder. Just something to think about.
