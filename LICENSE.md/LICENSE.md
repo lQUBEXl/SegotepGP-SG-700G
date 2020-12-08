@@ -7,7 +7,7 @@
 6. [Simplified Component List](#simplified-component-list)
 7. [Fan Replacement](#fan-replacement)
 
-## Segotep GP600G (as listed, but should be SX-700G product line)
+## Segotep GP600G (as listed, but should be SG-700G product line)
 600w continuously rated, Gold efficiency, Non-modular unit from Segotep that is listed for both $50 USD on both [Amazon](https://www.amazon.com/dp/B0832KN3RV/ref=twister_B08G1G6MLF?_encoding=UTF8&th=1) and [Newegg](https://www.newegg.com/segotep-gp-series-600w-non-modular/p/1HU-00Z0-00008). The listing shows GP600G while the product label shows SX-700G, of which we will see down below.
 
 ## Packaging
