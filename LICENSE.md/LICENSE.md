@@ -76,6 +76,7 @@ Secondary side capacitors are sometimes different from the product listing and s
   | Secondary Side          | :-: |
   | :-:                     | :-: |
   | Filtering Capacitors    | CapXon (4x 2200μF, 6V)/(2x 3300μF, 16V)/(2x 2000μF, 10V)  |
+  | Output Capacitors       | CapXon Surface Mount / 2x Hangcon / 2x ChengX / Chang Huawei surface mount (VT)
   | Supervisor IC           | Infinno ST9S313-SAG IC (OVP/UVP/SCP/PG--No OTP) |
   | Minor Rail PWM Controllers         | 2x Anpec APW7073A PWM controllers |
   | Minor Rail MOSFETs (controlled by PWM) | 4x [NCE3080K](https://datasheet.lcsc.com/szlcsc/Wuxi-NCE-Power-Semiconductor-NCE3080K_C108901.pdf)
